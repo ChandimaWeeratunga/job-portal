@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(32, 32, 32);
+}
+
+body{
+  background-image: url("img/backgroud.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  height: 900px;
+}
+
+/* navigation bar  */
+.navbar {
+padding: 20px;
+display: flex;
+align-items: center;
+max-width: auto;
+margin: 0 auto;
+background-color: #35a6f1;
+border-bottom: 1px solid #22d8f0;
+}
+.navbar h1 {
+color: #ffffff;
+}
+.navbar .links {
+margin-left: auto;
+}
+.navbar a {
+margin-left: 16px;
+text-decoration: none;
+padding: 6px;
+color: #ffffff;
+}
+.navbar a:hover {
+color: #75ff52;
+}
+
+/* landing page  */
+.content {
+max-width: 70%;
+margin: 0px auto;
+padding: 20px;
+background-color: #fffffff1;
+}
+
+/* home page  */
+.home-content a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    background-color: #75ff52;
+    color: #030303;
+    border-radius: 20px;
+}
+
+/* seker application and login page  */
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form label {
+  text-align: left;
+  display: block;
+}
+.form h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.form input, .form textarea, .form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.form button {
+  background: #35a6f1;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* seeker delete page  */
+.delete-account button {
+  background: #d60505;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px 5px 10px 5px;
+}
